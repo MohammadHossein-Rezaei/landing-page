@@ -32,7 +32,7 @@ export default function Header({}: Props) {
           <>
             <img
               className="menu-mobile"
-              src="/public/images/icon-hamburger.svg"
+              src="/images/icon-hamburger.svg"
               alt="menu"
               onClick={toggleMenu}
             />
@@ -56,7 +56,7 @@ export default function Header({}: Props) {
         )}
         <div className="logo-header">
           <h1 className="titles">WE ARE CREATIVES</h1>
-          <img src="/public/images/icon-arrow-down.svg" alt="down" />
+          <img src="/images/icon-arrow-down.svg" alt="down" />
         </div>
       </div>
 
@@ -64,8 +64,8 @@ export default function Header({}: Props) {
         className="banner"
         src={
           isMobile
-            ? "/public/images/mobile/image-header.jpg"
-            : "/public/images/desktop/image-header.jpg"
+            ? "/images/mobile/image-header.jpg"
+            : "/images/desktop/image-header.jpg"
         }
         alt="banner"
       />

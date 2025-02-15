@@ -1,9 +1,7 @@
 import { useState } from "react";
 import "./styles.css";
 
-type Props = {};
-
-export default function MenuLayout({}: Props) {
+export default function MenuLayout() {
   const [isMobile] = useState<boolean>(window.innerWidth <= 675);
   return (
     <main className="main-layout">
@@ -20,12 +18,12 @@ export default function MenuLayout({}: Props) {
       </div>
       <img
         className="image-1"
-        src="/public/images/desktop/image-transform.jpg"
+        src="/images/desktop/image-transform.jpg"
         alt="image"
       />
       <img
         className="image-2"
-        src="/public/images/desktop/image-stand-out.jpg"
+        src="/images/desktop/image-stand-out.jpg"
         alt="image"
       />
       <div className="paragraph">
@@ -44,8 +42,8 @@ export default function MenuLayout({}: Props) {
           className="banner"
           src={
             isMobile
-              ? "/public/images/mobile/image-graphic-design.jpg"
-              : "/public/images/desktop/image-graphic-design.jpg"
+              ? "/images/mobile/image-graphic-design.jpg"
+              : "/images/desktop/image-graphic-design.jpg"
           }
           alt="banner"
         />
@@ -63,8 +61,8 @@ export default function MenuLayout({}: Props) {
           className="banner"
           src={
             isMobile
-              ? "/public/images/mobile/image-photography.jpg"
-              : "/public/images/desktop/image-photography.jpg"
+              ? "/images/mobile/image-photography.jpg"
+              : "/images/desktop/image-photography.jpg"
           }
           alt="banner"
         />

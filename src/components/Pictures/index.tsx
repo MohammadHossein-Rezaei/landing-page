@@ -10,32 +10,32 @@ export default function Pictures({}: Props) {
       <img
         src={
           isMobile
-            ? "/public/images/mobile/image-gallery-milkbottles.jpg"
-            : "/public/images/desktop/image-gallery-milkbottles.jpg"
+            ? "/images/mobile/image-gallery-milkbottles.jpg"
+            : "/images/desktop/image-gallery-milkbottles.jpg"
         }
         alt=""
       />
       <img
         src={
           isMobile
-            ? "/public/images/mobile/image-gallery-orange.jpg"
-            : "/public/images/desktop/image-gallery-orange.jpg"
+            ? "/images/mobile/image-gallery-orange.jpg"
+            : "/images/desktop/image-gallery-orange.jpg"
         }
         alt=""
       />
       <img
         src={
           isMobile
-            ? "/public/images/mobile/image-gallery-cone.jpg"
-            : "/public/images/desktop/image-gallery-cone.jpg"
+            ? "/images/mobile/image-gallery-cone.jpg"
+            : "/images/desktop/image-gallery-cone.jpg"
         }
         alt=""
       />
       <img
         src={
           isMobile
-            ? "/public/images/mobile/image-gallery-sugarcubes.jpg"
-            : "/public/images/desktop/image-gallery-sugarcubes.jpg"
+            ? "/images/mobile/image-gallery-sugarcubes.jpg"
+            : "/images/desktop/image-gallery-sugarcubes.jpg"
         }
         alt=""
       />
